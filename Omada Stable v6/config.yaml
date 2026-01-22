@@ -10,6 +10,7 @@ arch:
   - aarch64
   - amd64
 init: false
+host_network: true
 url: https://github.com/jkunczik/home-assistant-omada
 map:
   - ssl
@@ -26,6 +27,8 @@ ports:
   8088/tcp: 8088
   8043/tcp: 8043
   8843/tcp: 8843
+  19810/udp: 19810
+  27001/udp: 27001
   29810/tcp: 29810
   29810/udp: 29810
   29811/tcp: 29811
